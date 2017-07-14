@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Book Finder</string>
+    <string name="searchHint">Search</string>
+    <string name="icon_search">&#xf002;</string>
+    <!--List [CHAR LIMIT=NONE]-->
+    <string name="price">Price: %1$s %2$s</string>
+    <string name="isFree">FREE</string>
+    <string name="no_books">No results found for \"%1$s\". Please go back and try a different research.</string>
+    <string name="Find_favorite_books_here">Find your favorite books here</string>
+    <string name="no_internet">No Internet Connection found. Check your connection or try again.</string>
+    <string name="search_field_empty">The Search field is empty.</string>
+    <string name="not_available">is not available.</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Advanced Search</string>
+    <string name="search_title">Books List</string>
+    <!-- Strings For Max Results Preference [CHAR LIMIT=NONE] -->
+    <string name="settings_max_results_label">Max Results</string>
+    <string name="settings_max_results_key" translatable="false">max_results</string>
+    <string name="settings_max_results_default" translatable="false">10</string>
+    <!-- Label for max results option [CHAR LIMIT=NONE] -->
+    <string name="settings_max_results_10_label">10</string>
+    <string name="settings_max_results_10_value" translatable="false">10</string>
+    <string name="settings_max_results_20_label">20</string>
+    <string name="settings_max_results_20_value" translatable="false">20</string>
+    <string name="settings_max_results_30_label">30</string>
+    <string name="settings_max_results_30_value" translatable="false">30</string>
+    <string name="settings_max_results_40_label">40</string>
+    <string name="settings_max_results_40_value" translatable="false">40</string>
+    <!-- Strings For Order-By Preference [CHAR LIMIT=NONE] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">relevance</string>
+    <!-- Label for order-by magnitude option [CHAR LIMIT=NONE] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <!-- Label for order-by most recent option [CHAR LIMIT=NONE] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+</resources>

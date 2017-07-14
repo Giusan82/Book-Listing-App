@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.booklistingapp.MainActivity">
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/icon_search"
+        android:layout_alignBottom="@+id/et_search"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_toLeftOf="@id/search"
+        android:layout_toStartOf="@id/search"
+        android:hint="@string/searchHint"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/search"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_padding">
+
+            <ImageView
+                android:id="@+id/splashscreen_book"
+                android:layout_width="@dimen/mainscreen_image_size"
+                android:layout_height="@dimen/mainscreen_image_size"
+                android:layout_centerInParent="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/books" />
+
+            <ImageView
+                android:id="@+id/splashscreen_glass"
+                android:layout_width="@dimen/mainscreen_image_size"
+                android:layout_height="@dimen/mainscreen_image_size"
+                android:layout_alignLeft="@+id/splashscreen_book"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/splashscreen_book"
+                android:scaleType="fitEnd"
+                android:src="@drawable/glass" />
+
+            <TextView
+                android:id="@+id/text_screensplash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/splashscreen_book"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/Find_favorite_books_here"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/text_home" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
