@@ -10,3 +10,4 @@ Here some screenshot:
   <img src="Screenshot_2017-07-14-13-43-03.png" width="250"/>
   <img src="Screenshot_2017-07-14-13-43-46.png" width="250"/>
 </p>
+https://discussions.udacity.com/t/sharing-my-book-listing-app-with-search-field-advanced-search-results-with-pictures-and-rating/308014
